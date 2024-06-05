@@ -11,6 +11,9 @@ El fin de este proyecto es generar información que le permita a las autoridades
 Se espera como productos finales un reporte de las tareas realizadas, metodologías adoptadas y principales conclusiones y la presentación de un dashboard interactivo que facilite la interpretación de la información y su análisis.
 
 
+![Dash](img/Analisis_victima.jpeg)
+
+
 ## Contexto
 
 Los siniestros viales, también conocidos como accidentes de tráfico, son eventos que involucran vehículos en vías públicas y pueden tener diversas causas y consecuencias, desde daños materiales hasta lesiones graves o fatales. En la Ciudad Autónoma de Buenos Aires, con una población de 3,121,707 habitantes y 1,616,327 vehículos registrados en noviembre de 2023, la prevención de siniestros viales es crucial para la seguridad de sus residentes y visitantes.
@@ -34,22 +37,22 @@ Para este proyecto se utilizó la Base de Víctimas Fatales en Siniestros Viales
 
  **EDA**: Se realizó un análisis exhaustivo para encontrar patrones que permitan generar información útil para las autoridades locales. Se realizaron las misma consulta pero en dos diversos archivos:
 
-*** EDA_bruto ***: Se realizo un análisis de los datos en bruto para recolectar informacion util para el proceso de Transformacion de los datos [EDA_bruto](EDA_bruto).
+EDA_bruto: Se realizo un análisis de los datos en bruto para recolectar informacion util para el proceso de Transformacion de los datos [EDA_bruto](EDA_bruto.ipynb).
 
-*** EDA ***: Se realizo el mismo proceso de análisis pero ya con los datos procesados [EDA](EDA).
+EDA: Se realizo el mismo proceso de análisis pero ya con los datos procesados [EDA](EDA.ipynb).
 
-**ETL**: Se estandarizaron nombres de variables, se analizaron nulos y duplicados, y se eliminaron columnas redundantes [ETL](ETL).
+**ETL**: Se estandarizaron nombres de variables, se analizaron nulos y duplicados, y se eliminaron columnas redundantes [ETL](ETL.ipynb).
 
 
 ## KPIs
 
 1. **Reducir en un 10% la Tasa de Homicidios en Siniestros Viales en los últimos seis meses en comparación con el semestre anterior**:
 
-Definimos a la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100.000 habitantes en un área geográfica durante un período de tiempo específico.
+    Definimos a la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100.000 habitantes en un área geográfica durante un período de tiempo específico.
 
 2. **Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año respecto al año anterior**:
 
-Definimos a la cantidad de accidentes mortales de motociclistas en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que viajaban en moto en un determinado periodo temporal.
+    Definimos a la cantidad de accidentes mortales de motociclistas en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que viajaban en moto en un determinado periodo temporal.
 
 
 ## Conclusiones y Recomendaciones
