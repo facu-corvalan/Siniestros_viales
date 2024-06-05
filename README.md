@@ -1,7 +1,7 @@
 # <h1 align=center> **SINIESTROS VIALES**  </h1>
 <p align="center">
 
-![siniestro](img\siniestro.jpeg)
+![siniestro](img/siniestro.jpeg)
 
 ## Introducción 
 Por parte del equipo de analistas de datos de una empresa consultora a la cual el Observatorio de Movilidad y Seguridad Vial (OMSV), que es un centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires (CABA), se solicitó la elaboración de un proyecto de análisis de datos.
@@ -26,19 +26,19 @@ Para este proyecto se utilizó la Base de Víctimas Fatales en Siniestros Viales
 
 ## Tecnologíaas Utilizadas
 
-- **Python / Pandas **
-- **Power BI **
+- Python / Pandas 
+- Power BI 
 
 
 ## ETL y EDA
 
  **EDA**: Se realizó un análisis exhaustivo para encontrar patrones que permitan generar información útil para las autoridades locales. Se realizaron las misma consulta pero en dos diversos archivos:
 
- *** EDA_bruto ***: Se realizo un análisis de los datos en bruto para recolectar informacion util para el proceso de Transformacion de los datos [EDA_bruto](EDA_bruto).
+*** EDA_bruto ***: Se realizo un análisis de los datos en bruto para recolectar informacion util para el proceso de Transformacion de los datos [EDA_bruto](EDA_bruto).
 
- *** EDA ***: Se realizo el mismo proceso de análisis pero ya con los datos procesados [EDA](EDA).
+*** EDA ***: Se realizo el mismo proceso de análisis pero ya con los datos procesados [EDA](EDA).
 
- **ETL**: Se estandarizaron nombres de variables, se analizaron nulos y duplicados, y se eliminaron columnas redundantes [ETL](ETL).
+**ETL**: Se estandarizaron nombres de variables, se analizaron nulos y duplicados, y se eliminaron columnas redundantes [ETL](ETL).
 
 
 ## KPIs
